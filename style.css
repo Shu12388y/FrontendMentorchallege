@@ -1,0 +1,328 @@
+html,body{
+  padding: 0%;
+  margin: 0%;
+  overflow-x: hidden;
+}
+header,nav{
+  background-color: hsl(200deg 100% 62%);
+  margin: 0%;
+  padding: 0%;
+}
+.head{
+  margin: 0%;
+  padding: 0%;
+  color: white;
+  font-size: 1.9em;
+  
+  margin-right: 50rem;
+}
+ul{
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  margin-top: 1%;
+}
+.section1{
+  margin: 0%;
+  padding: 0%;
+  position: relative;
+}
+.img01{
+  width: 100em;
+    height: 833px;
+}
+.head1{
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  color: white;
+  font-size: 4em;
+}
+.container001{
+  display: flex;
+  margin: 0%;
+  padding: 0%;
+  align-items: center;
+  justify-content: center;
+text-align: center;  
+box-sizing: border-box;
+}
+.container002{
+  display: flex;
+  margin: 0%;
+  padding: 0%;
+  align-items: center;
+  justify-content: center;
+text-align: center;  
+box-sizing: border-box;
+}
+span:hover{
+  text-decoration: underline;
+  color: black;
+}
+li{
+  color: white;
+  font-size: 1.5rem;
+}
+li:hover{
+  color: black;
+}
+.container01{
+  display: grid;
+  grid-template-columns: repeat(3 ,8fr);
+  margin: 0%;
+  padding: 0%;
+}
+ 
+.img06{
+  width:50rem;
+}
+.section04{
+  position: relative;
+}
+.content{
+  position: absolute;
+  left:15%;
+  top: 67%;
+    right: 53%;
+}
+.content01{
+  position: absolute;
+  left: 66%;
+    top: 67%;
+    right: 1%;
+
+}
+.img{
+  position: absolute;
+  top: 47%;
+    right: 46%;
+}
+.header{
+  text-align: center;
+  margin: 8rem;
+}
+.grid-container{
+  display: grid;
+  column-gap: 1.3rem;
+  row-gap: 5rem;
+  justify-items: center;
+  margin: 0% 12% 0% 12%;
+}
+  
+.one,.two,.three{
+  grid-row:1;
+}
+ .four,.five,.six{
+  grid-row: 2;
+  }
+  
+  .name,.prof{
+    margin: 1.3rem;
+    text-align: center;
+  }
+.icons{
+  border-radius: 50%;
+}
+.grid{
+  display: grid;
+  justify-items: center;
+    justify-content: center;
+}
+.class181,.class182,.class183,.class184{
+  grid-row: 1;
+}
+.group{
+  width: 24rem;
+}
+.section06{
+  margin-top: 12em;
+}
+.group:hover{
+  transform: translateY(-10px);
+}
+footer{
+  background-color: #89d1c3;
+  margin: 0%;
+  width: 100%;
+  padding: 3rem
+  ;
+}
+.footer-head{
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 3rem;
+  color: white;
+}
+.footer-container01{
+  display: flex;
+  margin-top: 4%;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  justify-content: center;
+  justify-items: center;
+  gap:3rem;
+}
+.footer-container02{
+  display: flex;
+  margin-top: 4%;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  justify-content: center;
+  justify-items: center;
+  gap:1rem;
+}
+header,
+section,
+footer {
+    margin: 0%;
+    padding:0.1px; /* tweaked from 0 to 1px */
+}
+.chal{
+  margin: 1em;
+  text-align: center;
+}
+button{
+  
+  background: white;
+  color: black;
+  border-radius: 50px;
+  padding: 0rem 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+button:hover{
+  background: rgb(48, 163, 216);
+    color: white;
+}
+.footer-class:hover{
+  color: white;
+
+}
+@media (max-width:500px){
+  .head{
+    font-size: 1rem;
+    margin-right: 10rem;
+  }
+  ul{
+    gap:0.5rem;
+    margin-left: -1rem;
+  }
+  li{
+    font-size: 1rem;
+    opacity: 0;
+    
+  }
+  .img01{
+    height: 60vh;
+    width: 100vw;
+  }
+  .container001{
+    flex-direction: column-reverse;
+    
+  }
+  .container002{
+    flex-direction: column;
+  }
+  .class03{
+    grid-row: 1;
+  }
+  .class031{
+    grid-row: 2;
+  }
+  .img06{
+    width: 100vw;
+  }
+  .content{
+    top: 26%;
+    right: 0%;
+    left: 6%;
+  }
+  .content01{
+    top: 77%;
+    right: 19%;
+    left: 5%;
+
+  }
+  .header{
+    margin: 4rem;
+  }
+ .one{
+  grid-row: 1;
+  grid-column: 1;
+
+ } 
+ .four{
+  grid-row: 2;
+  grid-column: 1;
+
+ } 
+ .two{
+  grid-row: 3;
+  grid-column: 1;
+
+
+ }
+ .five{
+  grid-row: 4;
+  grid-column: 1;
+
+
+ }
+ .three{
+  grid-row: 5;
+  grid-column: 1;
+
+ }
+ .six{
+  grid-row: 6;
+  grid-column: 1;
+
+ }
+ .class181{
+  grid-row: 1;
+  grid-column: 1;
+ }
+ .class182{
+  grid-row: 1;
+  grid-column: 2;
+ }
+ .class183{
+  grid-row: 2;
+  grid-column: 1;
+  
+ }
+ .class184{
+  grid-row: 2;
+  grid-column: 2;
+ }
+ .group{
+  width: 12rem;
+ }
+ footer{
+  padding-bottom: 4rem;
+  position: relative;
+ }
+ 
+ .footer-head{
+  margin-top: 1rem;
+  font-size: 2rem;
+ }
+ .footer-container01{
+  margin: 13% 0%;
+}
+.footer-container02{
+  margin-top: 13%;
+}
+
+.chal{
+  position: absolute;
+  bottom: 0%;
+  font-size: 0.8rem;
+right: 4%;
+}
+
+}
